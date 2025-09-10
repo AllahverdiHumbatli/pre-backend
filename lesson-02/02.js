@@ -9,14 +9,13 @@
 
 let dice1 // your code
 let dice2 // your code
-let isWinningDouble // your code
-
-/*
+let isWinningDouble = dice1 === dice2
 console.log('Первый бросок: ' + dice1)
 console.log('Второй бросок: ' + dice2)
-if (isWinningDouble) {
-  console.log('Выигрышный дубль!')
+if (isWinningDouble && dice1> 3) {
+    isWinningDouble = true
 } else {
   console.log('Не выигрышный дубль.')
+    isWinningDouble = false
 }
-*/
+
