@@ -23,6 +23,7 @@ function findUniqueElements(array) {
              newUniqueElements.push(array[i]);
          }
      }
+
     return newUniqueElements;
 
 }
