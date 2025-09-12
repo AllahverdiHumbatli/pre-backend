@@ -26,7 +26,6 @@ function findCommonElements(arr1, arr2) {
             if(includesElement(uniqueArr2, uniqueArr1[i])) {
                 result.push(uniqueArr1[i]);
             }
-
     }
     return result
 
