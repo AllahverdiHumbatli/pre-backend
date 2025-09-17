@@ -1,0 +1,12 @@
+# docker-compose.yml
+version: "3.8"
+services:
+  db:
+    image: postgres:latest
+    container_name: my-postgres
+    ports:
+      - "5532:5432" #порт, на котором будет доступна БД 5532
+    environment:
+      POSTGRES_DB: timerdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
