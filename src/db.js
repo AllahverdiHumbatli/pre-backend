@@ -1,6 +1,6 @@
-// import { Pool } from'pg';
-//
-// const connectionString =
-//     process.env.DATABASE_URL || 'postgresql://postgres:password@localhost:5532/timerdb';
-//
-// export const pool = new Pool({ connectionString });
+import { Pool } from'pg';
+
+const connectionString =
+    process.env.DATABASE_URL || 'postgresql://postgres:password@localhost:5532/timerdb';
+
+export const pool = new Pool({ connectionString });
